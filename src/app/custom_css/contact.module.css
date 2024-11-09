@@ -14,10 +14,10 @@
   margin-top: 10%;
 }
 .divTag2 {
-  border: 2px, solid #e75480;
+  border: 2px solid #e75480;
   border-radius: 20px;
   width: 80%;
-  height: 90vh;
+  height: auto;
   padding: 40px;
 
   margin-bottom: 20px;
@@ -76,8 +76,8 @@
 @media (max-width: 600px) {
   .divTag2 {
     width: 90%;
-    height: 110vh;
-    border-width: 10%;
+    height: auto;
+    border-width: 2px;
   }
   .h2Tag {
     font-size: 30px;
