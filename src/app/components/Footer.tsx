@@ -7,7 +7,7 @@ import footer from "../custom_css/footer.module.css";
 const Footer = () => {
   return (
     <div className={footer.divTag1}>
-      <h1 className={footer.h1Tag}>Follow Me</h1>
+      <h1 className={footer.h1Tag}>Follow Us</h1>
       <div className={footer.divTag2}>
         <Link
           href="https://www.linkedin.com/in/ayesha-iqbal-2613402b4/"
@@ -19,7 +19,7 @@ const Footer = () => {
           <FaGithub className={footer.iconsTag} />
         </Link>
       </div>
-      <p className={footer.pTag}>My Portfolio</p>
+      <p className={footer.pTag}>LusciousLicks</p>
       <p className={footer.pTag}>�� 2024 All rights reserved.</p>
     </div>
   );
