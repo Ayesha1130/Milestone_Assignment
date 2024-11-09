@@ -1,0 +1,53 @@
+.divTag1 {
+  text-align: center;
+  justify-items: center;
+  margin-top: 50px;
+
+  background-color: #e75480;
+}
+.divTag2 {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  gap: 10px;
+}
+.h1Tag {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 20px;
+}
+.pTag {
+  margin-top: 10px;
+  text-align: center;
+
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: bold;
+}
+.iconsTag {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: black;
+  font-size: 50px;
+}
+
+.iconsTag:hover {
+  background-color: #e0218a;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.divTag2 {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  gap: 10px;
+}

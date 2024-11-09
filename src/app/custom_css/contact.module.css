@@ -1,0 +1,94 @@
+.divTag {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.h1Tag {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #e75480;
+  margin-top: 10%;
+}
+.divTag2 {
+  border: 2px, solid #e75480;
+  border-radius: 20px;
+  width: 80%;
+  height: 90vh;
+  padding: 40px;
+
+  margin-bottom: 20px;
+  border-width: 20%;
+}
+.h2Tag {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pTag {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.buttonTag {
+  background-color: #e75480;
+
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 150px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.buttonTag:hover {
+  background-color: #e0218a;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+.divTag4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.iconsTag {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #e75480;
+  font-size: 50px;
+}
+
+.iconsTag:hover {
+  background-color: #e0218a;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .divTag2 {
+    width: 90%;
+    height: 110vh;
+    border-width: 10%;
+  }
+  .h2Tag {
+    font-size: 30px;
+  }
+  .pTag {
+    font-size: 15px;
+  }
+  .buttonTag {
+    width: 100px;
+  }
+  .iconsTag {
+    font-size: 30px;
+  }
+}

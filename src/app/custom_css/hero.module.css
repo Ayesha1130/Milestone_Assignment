@@ -1,0 +1,86 @@
+/* Hero Section*/
+
+.sectionTag {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.h1Tag {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+.h2Tag {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.pTag {
+  margin-top: 5px;
+  text-align: justify;
+  width: 40%;
+}
+.buttonTag {
+  background-color: #e75480;
+
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 150px;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+.spanTag {
+  color: #e75480;
+  font-weight: bold;
+}
+.buttonTag:hover {
+  background-color: #e0218a;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+.imgTag {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+
+  margin-left: 70%;
+  margin-top: -250px;
+}
+
+@media (max-width: 768px) {
+  .sectionTag {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .h1Tag {
+    font-size: 28px;
+    margin-left: 10px;
+  }
+  .h2Tag {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .pTag {
+    width: 90%;
+    margin: 10px;
+  }
+  .buttonTag {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-left: 20px;
+  }
+  .imgTag {
+    width: 300px;
+    height: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    margin-top: 10%;
+  }
+}

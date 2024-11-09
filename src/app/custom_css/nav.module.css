@@ -1,0 +1,71 @@
+/* Navbar Styling*/
+.headTag {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e75480;
+  padding: 0, 50rem 0.95rem;
+  position: sticky;
+  z-index: 10;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.h1Tag {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 10px;
+}
+.linkTag {
+  display: none;
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .linkTag {
+    display: flex;
+    gap: 30px;
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+}
+.ButtonTag {
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.link.active {
+  color: pink;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .ButtonTag {
+    display: none;
+  }
+}
+/* small divice style*/
+.SmallScreenMenu {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SmallScreenLink {
+  padding: 0.5rem 0;
+
+  text-decoration: none;
+}
+.SmallScreenLink.active {
+  color: pink;
+  font-weight: bold;
+}
